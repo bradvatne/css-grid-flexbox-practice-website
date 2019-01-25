@@ -18,12 +18,16 @@ html, body {
   overflow: hidden;
 }
 
-.navhead {
+.navhead-large {
   padding: 0;
   margin: 0;
   margin-left: 20px;
   box-sizing: border-box;
   color: white;
+}
+
+.navhead-small {
+  display: none;
 }
 
 .navbar {
@@ -289,7 +293,20 @@ html, body {
 .navbar{
   display: flex;
   justify-content: space-between;
+  height: 50px;
 
+}
+
+.navhead-large {
+  display: none;
+}
+
+.navhead-small{
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
 }
 
 .navbar ul {
