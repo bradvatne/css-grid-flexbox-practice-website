@@ -138,6 +138,7 @@ html, body {
 
 .footer {
   position: fixed;
+  position: fixed;
   bottom: 0;
   z-index: 1;
   margin: 0px;
