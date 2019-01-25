@@ -244,7 +244,7 @@ html, body {
 
 .hero-container {
   width: 90%;
-  margin-top: 150px;
+  margin-top: 100px;
   text-align: center;
   color: white;
   overflow: hidden;
@@ -255,7 +255,7 @@ html, body {
 .hero-header{
   color: white;
   font-size: 1.5em;
-  text-shadow: 4px 4px 0px rgba(0,0,0, 0.5);
+  text-shadow: 2px 2px 1px rgba(0,0,0, 0.5);
 }
 .hero-header h1{
   font-size: 1.5em;
@@ -272,7 +272,7 @@ html, body {
 
 .hero-paragraph p {
   font-size: 1.1em;
-  text-shadow: 1px 1px 2px rgba(0,0,0, 0.8);
+  text-shadow: 1px 1px 1px rgba(0,0,0, 0.8);
   text-align: center;
 }
 
@@ -286,7 +286,7 @@ html, body {
   font-family: Raleway;
   text-shadow: 2px 2px 2px rgba(0,0,0, 1);
   text-transform: uppercase;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 
