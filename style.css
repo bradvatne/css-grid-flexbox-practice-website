@@ -86,16 +86,19 @@ html, body {
 
 
 .hero{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bg2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bg1.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  animation: fadeIn;
+  animation-duration: 1s;
 }
 
 .hero2{
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url("bg1.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url("bg2.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -106,6 +109,8 @@ html, body {
   grid-template-columns: 1fr 1fr 1fr;
   padding-left: 100px;
   padding-right: 100px;
+  animation: fadeIn;
+  animation-duration: 1s;
 }
 
 
@@ -114,7 +119,6 @@ html, body {
   margin: auto;
   margin-top: 150px;
   width: 90%;
-  float: left;
   text-align: center;
   color: white;
   overflow: hidden;
@@ -201,7 +205,7 @@ html, body {
 }
 
 .consult-button:hover {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(255,255,255,0.5);
   cursor: pointer;
 } 
 
@@ -267,7 +271,7 @@ html, body {
 
 .dropnav {
   display: block;
-  margin-right: 40px;
+  margin-right: 60px;
   margin-top: 20px;
   z-index: 3;
 }
@@ -331,13 +335,13 @@ html, body {
 
         height: 200px;
         width: 100%;
-        background-color: rgba(0,0,0,.8);
+        background-color: rgba(0,0,0,.5);
 
     }
     to{
         height: 50px;
         width: 100%;
-        background-color: rgba(0,0,0,..5);
+        background-color: rgba(0,0,0,1);
     }
 }
 
@@ -353,7 +357,7 @@ html, body {
     to{
         height: 200px;
         width: 100%;
-        background-color: rgba(0,0,0,.8);
+        background-color: rgba(0,0,0,1);
     }
 }
 
