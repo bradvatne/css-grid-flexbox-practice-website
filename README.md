@@ -26,6 +26,6 @@
 <ul>
   <li>Finish building pages</li>
   <li>Add in Javascript functionality and some animations</li>
-  <li>Clean up code, learn SASS and re-write the CSS with it<li>
+  <li>For next time: Use SASS</li>
   <li>Re-build a siilair concept/layout of this page with create-react-app</li>
 </ul>
