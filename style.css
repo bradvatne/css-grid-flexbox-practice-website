@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open-serif');
 
 html, body {
   margin: 0;
@@ -10,7 +9,9 @@ html, body {
 
 /* NAV HEADER */
 
-
+.hidden {
+  display: none;
+}
 
 .main-container {
   width: 100%
@@ -70,7 +71,10 @@ html, body {
   border-bottom: solid .1rem;
 }
 
-.hamburger {
+#arrow {
+  display: none;
+}
+.down-arrow {
   display: none;
 }
 
@@ -92,7 +96,7 @@ html, body {
 
 .hero2{
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)), url("bg1.jpg");
-  height: 800px;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,6 +230,136 @@ html, body {
   width: 100%;
 }
 
+.down-arrow {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+/* DROP DOWN */
+.animate-drop-down {
+  animation: dropDown;
+  animation-duration: .7s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.drop-down {
+  position: fixed;
+  background-color: rgba(0,0,0,.5);
+  overflow: hidden;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+
+.dropbar {
+  margin-top: 30px;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  color: white;
+}
+
+
+.dropnav {
+  display: block;
+  margin-right: 40px;
+  margin-top: 20px;
+  z-index: 3;
+}
+
+.dropnav li {
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.dropnav li a {
+  text-decoration: none;
+  color: white;
+  margin-top: 3px;
+  font-size: 1.3rem;
+}
+
+.dropup {
+  animation: dropUp;
+  animation-duration: .7s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.fade-in {
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.fade-out {
+  animation: fadeOut;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes dropUp{
+    from{
+
+        height: 200px;
+        width: 100%;
+        background-color: rgba(0,0,0,.8);
+
+    }
+    to{
+        height: 50px;
+        width: 100%;
+        background-color: rgba(0,0,0,..5);
+    }
+}
+
+
+@keyframes dropDown{
+    from{
+
+        height: 50px;
+        width: 100%;
+        background-color: rgba(0,0,0,.5);
+
+    }
+    to{
+        height: 200px;
+        width: 100%;
+        background-color: rgba(0,0,0,.8);
+    }
+}
+
+
+
+
 
 /* MEDIA QUERY */
 
@@ -321,11 +455,15 @@ html, body {
   
 }
 
-.hamburger {
+#arrow {
+  display: block;
+}
+
+.down-arrow {
   padding: 3px;
   display: inline-block;
   margin-right: 10px;
-  
+  text-decoration: none;
 }
 
 .hero2 {
@@ -362,3 +500,29 @@ html, body {
   font-size: .6rem;
   text-transform: uppercase;
 }
+
+.navhead-large {
+  display: none;
+}
+
+.navhead-small{
+  position: fixed;
+  display: inline-block;
+  font-size: 1.5rem;
+  top: 10px;
+  left: 1px;
+
+}
+
+.navbar ul {
+  display: none;
+  margin-right: 0;
+}
+
+.navbar li {
+  display: none;
+  
+}
+
+
+
