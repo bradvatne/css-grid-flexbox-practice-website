@@ -83,7 +83,7 @@ html, body {
 
 .hero{
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bg2.jpg");
-  height: 800px;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
