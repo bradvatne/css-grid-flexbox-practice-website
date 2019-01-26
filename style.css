@@ -245,7 +245,7 @@ html, body {
 
 .hero-container {
   width: 90%;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   color: white;
   overflow: hidden;
@@ -265,7 +265,7 @@ html, body {
 }
 
 .hero-paragraph {
-  margin-top: 50px;
+  margin-top: 55px;
   padding: 0;
   width: 90%;
 }
@@ -288,6 +288,7 @@ html, body {
   text-shadow: 2px 2px 2px rgba(0,0,0, 1);
   text-transform: uppercase;
   margin-top: 20px;
+  margin-bottom: 75px;
 }
 
 
