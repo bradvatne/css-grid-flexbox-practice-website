@@ -1,7 +1,7 @@
 <body>
 <h1>Static Website Project</h1>
 
-<p>The website layout is my own original design, which has drawn from influence of similair pages and my own creative input. All elements and snippets are built from scratch.
+<p>The website layout is my own original design. All elements are built from scratch, with very minimal use of snippets from other programmers. The goal of this project is to ensure my fundamental HTML, CSS, and Javascript skills are at level that will allow me to start learning react.js effectively.</p>
 
 
 
