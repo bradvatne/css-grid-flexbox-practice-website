@@ -399,7 +399,7 @@ html, body {
 @keyframes dropUp{
     from{
 
-        height: 20px;
+        height: 220px;
         width: 100%;
         background-color: rgba(0,0,0,1);
 
@@ -421,7 +421,7 @@ html, body {
 
     }
     to{
-        height: 250px;
+        height: 220px;
         width: 100%;
         background-color: rgba(0,0,0,1);
     }
