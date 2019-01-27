@@ -1,4 +1,3 @@
-
 function dropDown() {
   var navbar = document.getElementById('navbar');
   var arrow = document.getElementById('arrow');
@@ -6,12 +5,12 @@ function dropDown() {
 
   if (arrow.classList.contains('fa-angle-down')) {
     dropbar.classList.add('fade-in')
-    dropbar.classList.remove('hidden')
     navbar.classList.remove('dropup')
     navbar.classList.add('drop-down')
     navbar.classList.add('animate-drop-down')
     arrow.classList.remove('fa-angle-down')
     arrow.classList.add('fa-angle-up')
+    dropbar.classList.remove('hidden')
     dropbar.classList.remove('fade-out')
   } 
 
