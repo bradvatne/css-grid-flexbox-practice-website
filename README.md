@@ -2,7 +2,7 @@
 <h1>Static Website Project</h1>
 
 
-<p>The website layout was my own original design. All elements were built from scratch, with very minimal (if any) use of snippets from other programmers. The goal of this project is to ensure my fundamental HTML, CSS, and Javascript skills are at a level that will allow me to start learning react.js effectively.</p>
+<p>The website layout was my own original design. All elements were built from scratch, with very minimal (if any) use of snippets from other programmers. The goal of this project was to ensure my fundamental HTML, CSS, and Javascript skills are at a level that would allow me to start learning react.js effectively.</p>
 
   <h2>Status: Abandoned</h2>
   
