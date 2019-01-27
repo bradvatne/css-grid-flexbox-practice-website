@@ -17,15 +17,15 @@
 <ul>
   <li>Version control through Git</li>
   <li>UX design</li>
-  <li>Mobile-first design & responsiveness</li>
+  <li>Responsive web design</li>
 </ul>
 </p>
 </body>
 
-**TODO**
+**LESSONS LEARNED**
 <ul>
-  <li>Finish building pages</li>
-  <li>Add in Javascript functionality and some animations</li>
-  <li>For next time: Use SASS</li>
-  <li>Re-build a siilair concept/layout of this page with create-react-app</li>
+  <li>My class structure for css was a nightmare and it became very difficul to make minor changes. In the future, I will most likely use SASS and also pay close attention to my class naming and div hierarchies. </li>
+  <li>I really got to know HTML and CSS a lot better here and I feel confident that I won't get hung up on future projects with basic UI components</li>
+  <li>This project might have been better to design mobile-first, and I look forward to doing a mobile-first project in the future, probably in react</li>
+  <li>My code is messy as hell, and rather than clean it up to try and impress you, I'm just going to make a new project, so stay tuned. That being said, all comments and criticism are welcome!</li>
 </ul>
