@@ -1,4 +1,3 @@
-
 function dropDown() {
   var navbar = document.getElementById('navbar');
   var arrow = document.getElementById('arrow');
