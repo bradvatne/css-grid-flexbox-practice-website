@@ -336,8 +336,8 @@ html, body {
 
 .dropnav {
   display: block;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin-right: 60px;
+  margin-top: 20px;
   z-index: 3;
 }
 
@@ -399,7 +399,7 @@ html, body {
 @keyframes dropUp{
     from{
 
-        height: 220px;
+        height: 20px;
         width: 100%;
         background-color: rgba(0,0,0,1);
 
@@ -421,7 +421,7 @@ html, body {
 
     }
     to{
-        height: 220px;
+        height: 250px;
         width: 100%;
         background-color: rgba(0,0,0,1);
     }
