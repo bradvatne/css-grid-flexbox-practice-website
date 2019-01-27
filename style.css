@@ -266,7 +266,7 @@ html, body {
 }
 
 .clients-grid {
-  position: relative;
+  position: fixed;
   bottom: 10px;
   margin:0;
   padding: 0;
@@ -336,8 +336,8 @@ html, body {
 
 .dropnav {
   display: block;
-  margin-right: 30px;
-  margin-top: 30px;
+  margin-right: 60px;
+  margin-top: 20px;
   z-index: 3;
 }
 
@@ -399,7 +399,7 @@ html, body {
 @keyframes dropUp{
     from{
 
-        height: 220px;
+        height: 20px;
         width: 100%;
         background-color: rgba(0,0,0,1);
 
@@ -421,7 +421,7 @@ html, body {
 
     }
     to{
-        height: 220px;
+        height: 250px;
         width: 100%;
         background-color: rgba(0,0,0,1);
     }
@@ -489,7 +489,7 @@ html, body {
   font-family: Raleway;
   text-shadow: 2px 2px 2px rgba(0,0,0, 1);
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 75px;
   margin-bottom: 75px;
 }
 
